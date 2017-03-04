@@ -1,6 +1,4 @@
-.logo  {
 
-	margin: 0 auto;
 	
 
 
@@ -28,11 +26,14 @@ img  {
 
 	width: 272px;
 	height: 92px;
+
 }
 
 #logo  {
 
-	margin-left: 40%;
+	margin-top: 150px;
+
+	margin-left: auto;
 	margin-right: auto;
 
 
@@ -49,4 +50,37 @@ img  {
 	position: absolute;
 	bottom: 0;
 	margin-bottom: 30px;
+	border-top: 1px;
+	border-top-color: grey;
+	background-color: beige;
 }
+
+.btm_left   {
+
+
+
+}
+
+.btm_right  {
+
+text-align: right;
+
+
+}
+
+#signin  {
+
+	background-color: blue;
+	border: 1px solid black;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#search_box, p  {
+
+
+	text-align: center;
+}
+
