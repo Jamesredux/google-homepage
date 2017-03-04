@@ -43,3 +43,10 @@ img  {
 	margin: 20px;
 	width: 400px
 }
+
+#bottom_bar   {
+
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 30px;
+}
