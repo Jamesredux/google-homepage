@@ -1,0 +1,45 @@
+.logo  {
+
+	margin: 0 auto;
+	
+
+
+}
+
+#top_bar  {
+
+	float: right;
+	
+}
+
+a:hover  {
+
+	text-decoration: underline;
+
+
+}
+
+a  {
+	text-decoration: none;
+
+}
+
+img  {
+
+	width: 272px;
+	height: 92px;
+}
+
+#logo  {
+
+	margin-left: 40%;
+	margin-right: auto;
+
+
+}
+
+#sch_box  {
+
+	margin: 20px;
+	width: 400px
+}
