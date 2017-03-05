@@ -1,14 +1,30 @@
 
+.header  {
+	position: fixed;
+	top: 20px;
+	right: 0px;
+	width: 300px;
+	
+	background-color: #f2ecda;
 	
 
 
+}	
+
+.header nav a {
+
+	text-align: center;
+	padding: 10px 5px 10px 5px;
+	font-family: Arial;
+
 }
 
-#top_bar  {
-
-	float: right;
-	
+nav {
+	right: 0;
 }
+
+
+
 
 a:hover  {
 
@@ -24,6 +40,8 @@ a  {
 
 img  {
 
+	text-align: center;
+	left: 500px;
 	width: 272px;
 	height: 92px;
 
@@ -45,28 +63,16 @@ img  {
 	width: 400px
 }
 
-#bottom_bar   {
+.footer  {
 
-	position: absolute;
-	bottom: 0;
-	margin-bottom: 30px;
+	position: fixed;
+	bottom: 0px;
 	border-top: 1px;
 	border-top-color: grey;
-	background-color: beige;
+	background-color: red;
 }
 
-.btm_left   {
 
-
-
-}
-
-.btm_right  {
-
-text-align: right;
-
-
-}
 
 #signin  {
 
@@ -84,3 +90,10 @@ text-align: right;
 	text-align: center;
 }
 
+
+
+.ft_right  {
+
+
+	float: right;
+}
