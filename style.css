@@ -4,8 +4,7 @@
 	top: 20px;
 	right: 0px;
 	width: 300px;
-	
-	background-color: #f2ecda;
+	/*background-color: #f2ecda;*/
 	
 
 
@@ -14,7 +13,7 @@
 .header nav a {
 
 	text-align: center;
-	padding: 10px 5px 10px 5px;
+	padding: 10px 8px 10px 8px;
 	font-family: Arial;
 
 }
@@ -35,7 +34,8 @@ a:hover  {
 
 a  {
 	text-decoration: none;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	color: #666;
 
 }
 
@@ -51,7 +51,7 @@ a  {
 #logo  {
 
 
-	border: 1px solid black;
+	/*border: 1px solid black; */
 
 	margin-top: 150px;
 	padding: 0;
@@ -105,6 +105,7 @@ a  {
 	line-height: 0;
 	text-align: center;
 	font-family: Arial;
+
 }
 
 
@@ -124,4 +125,46 @@ span a {
 
 input:focus  {
 	outline: none;
+}
+
+.ft_left, .ft_right  {
+
+position: relative;
+top: 10px;
+
+
+}
+
+.ft_left   {
+
+	margin-left: 15px;
+}
+
+.butt1  {
+
+	border: none;
+	padding: 10px 20px;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+}
+
+.butt1:hover  {
+
+	border: 1px solid #c6c6c6; 
+	color: black;
+
+}
+
+p {
+
+	margin: 30px;
+	font-size: 13.5px;
+}
+
+
+.link12  {
+
+	position: relative;
+	bottom: 4px;
 }
